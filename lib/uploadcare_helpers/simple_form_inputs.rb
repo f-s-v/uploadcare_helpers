@@ -1,6 +1,6 @@
 module UploadcareHelpers
   module SimpleFormInputs
-    class UploadcareInput < SimpleForm::Inputs::Base
+    class UploadcareInput < ::SimpleForm::Inputs::Base
       @@uploadcare_widget_options_keys = %w(
         public_key
         multiple
